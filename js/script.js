@@ -13,6 +13,7 @@ $(document).ready(function() {
             return false;
     	});
 
+
     	$('.category li a').click(function(){
             $('.category li').removeClass('active');
             $(this).parent().addClass('active');

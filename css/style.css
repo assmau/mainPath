@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .content-category {
   margin: 30px 0;
-  display: none;
+  display: block;
 }
 
 .content-category p {
@@ -269,7 +269,11 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: right;
 }
 
-.content-category .article .article-item strong a {
+.content-category .article .article-item h2 {
+  margin: 0 !important;
+}
+
+.content-category .article .article-item h2 a {
       color: #555;
     font-size: 21px;
 }
