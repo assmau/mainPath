@@ -144,9 +144,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Content */
 .content .items {
-	padding: 10px 0;
-  display: none;
-}
+	padding: 10px 0;}
 
 
 .category .category-item .title {

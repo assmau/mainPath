@@ -1,21 +1,8 @@
 $(document).ready(function() {
 
+	// Tabs
 
-	var btnSignup = document.getElementsByClassName('btn-signup');
-	var toggleSignup = document.getElementsByClassName('toggle-signup');
-
-	$(btnSignup).on('click', function() {
-		$(toggleSignup).toggle();
-	});
-
-	var navbarBtn = document.getElementsByClassName('btn-bar');
-	var navTabs = document.getElementsByClassName('tabs');
-
-	$(navbarBtn).on('click', function() {
-		$(navTabs).toggle();
-	});
-
-    // $('.tabs li:first').addClass('active');
+    $('.tabs li:first').addClass('active');
 
         $('.tabs li a').click(function(){
             $('.tabs li').removeClass('active');
@@ -35,7 +22,23 @@ $(document).ready(function() {
             return false;
     	});
 
+    	var btnSignup = document.getElementsByClassName('btn-signup');
+		var toggleSignup = document.getElementsByClassName('toggle-signup');
 
+		var navbarBtn = document.getElementsByClassName('btn-bar');
+		var navTabs = document.getElementsByClassName('tabs');
+
+		$(btnSignup).on('click', function() {
+			$(toggleSignup).toggle();
+		});
+
+		$(navbarBtn).on('click', function() {
+			$(navTabs).toggle();
+		});
+
+
+
+// Validator
 
         $('input').on('blur', function() {
         	var fldInput = $(this).val().length;
