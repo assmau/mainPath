@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, p {
     z-index: 9;
 }
 
-.signup .btn-group .send {
+.signup .btn-group .enter {
     width: 120px;
     padding: 6px;
     border: 2px solid #c3c3c3;
@@ -144,15 +144,14 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Content */
 .content .items {
-	padding: 10px 0;}
-
+	padding: 10px 0;
+}
 
 .category .category-item .title {
   text-align: center;
   background: #b97a57;
   padding: 13px 0;
 }
-
 
 .category .category-item {
       border-left: 3px solid #b97a57;
@@ -175,13 +174,11 @@ h1, h2, h3, h4, h5, h6, p {
   color: #8a8381;
 }
 
-
 .content .items .form .group-form {
   overflow: hidden;
   margin-bottom: 25px;
   position: relative;
 }
-
 
 .content .items .form .group-form  strong {
     border-right: 2px solid #c3c3c3;
@@ -203,7 +200,6 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative;
     border: 2px solid #c3c3c3;
 }
-
 
 .content .items .form button {
   width: 250px;
