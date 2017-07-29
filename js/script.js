@@ -1,9 +1,7 @@
 $(document).ready(function() {
 
 	// Tabs
-
-    $('.tabs li:first').addClass('active');
-
+	
         $('.tabs li a').click(function(){
             $('.tabs li').removeClass('active');
             $(this).parent().addClass('active');
@@ -12,7 +10,6 @@ $(document).ready(function() {
             $(currentTab).show();
             return false;
     	});
-
 
     	$('.category li a').click(function(){
             $('.category li').removeClass('active');
@@ -36,7 +33,6 @@ $(document).ready(function() {
 		$(navbarBtn).on('click', function() {
 			$(navTabs).toggle();
 		});
-
 
 
 // Validator

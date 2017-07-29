@@ -145,6 +145,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Content */
 .content .items {
 	padding: 10px 0;
+  display: none;
 }
 
 .category .category-item .title {
@@ -168,7 +169,6 @@ h1, h2, h3, h4, h5, h6, p {
     height: 50px;
     font-size: 19px;
 }
-
 
 .category .category-item .item strong {
   color: #8a8381;
@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .content-category {
   margin: 30px 0;
-  display: block;
+  display: none;
 }
 
 .content-category p {
@@ -256,9 +256,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .content-category .article {
-    overflow: hidden;
-    border-bottom: 1px solid #999;
-    padding: 50px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #999;
+  padding: 50px 0;
 }
 
 .content-category .article .article-item time {
@@ -274,12 +274,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .content-category .article .article-item h2 a {
-      color: #555;
-    font-size: 21px;
+  color: #555;
+  font-size: 21px;
 }
 
 .content-category .article .article-item p {
-      margin: 10px 0;
+    margin: 10px 0;
     font-size: 17px;
     line-height: 21px;
 }
@@ -457,14 +457,14 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .category .category-item .item {
-          padding: 21px 15px !important;
-          height: 66px !important;
-          word-wrap: break-word;
+      padding: 21px 15px !important;
+      height: 66px !important;
+      word-wrap: break-word;
     }
 
     .content .items .form .group-form  input {
-          padding: 20px !important;
-          text-align: left !important;
+      padding: 20px !important;
+      text-align: left !important;
     }
 
     .category ul {
