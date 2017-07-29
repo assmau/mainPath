@@ -26,6 +26,16 @@ $(document).ready(function() {
             return false;
     	});
 
+    	$('.category li a').click(function(){
+            $('.category li').removeClass('active');
+            $(this).parent().addClass('active');
+            var currentTab = $(this).attr('href');
+            $('.category .content-category').hide();
+            $(currentTab).show();
+            return false;
+    	});
+
+
 
         $('input').on('blur', function() {
         	var fldInput = $(this).val().length;
@@ -34,13 +44,18 @@ $(document).ready(function() {
 
         	if(fldInput === 0) {
         		$(this).css('border', '3px solid red').next().text(' Неверный формат вводимых данных!').addClass('txt-error')
+        		$(this).prev('strong').addClass('fld-error');
         	}
         	else {
                $(this).css('border', '3px solid #23b14d').next().text('').removeClass('txt-error');
         	}
 
-        	if (fldInput < 5 && fldInput > 0) {
+        	if (fldInput < 5) {
         		$(this).css('border', '3px red solid').next().text('должно содержать более 4-х символов!').addClass('txt-error');
+        		$(this).prev('strong').addClass('fld-error');
+        	}
+        	else {
+        		$(this).prev('strong').addClass('fld-success');
         	}
         });
 
